@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "description": "Bootstrap 5, Webpack 4 and Handlebars HTML Boilerplate",
     "scripts": {
-        "start": "webpack-dev-server --open",
-        "build": "del-cli dist && webpack -p"
+        "start": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --open",
+        "build": "SET NODE_OPTIONS=--openssl-legacy-provider && del-cli dist && webpack -p"
     },
     "keywords": [],
     "author": "Jovana Marceta",
