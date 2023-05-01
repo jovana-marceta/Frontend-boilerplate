@@ -12,10 +12,9 @@ Bootstrap 5 + Webpack 4 + Handlebars
 4. For compiling dev build and start the server run `npm start` 
 
 ```bash
-git clone https://github.com/jovana-marceta/Frontend_boilerplate
-cd Frontend_boilerplate
+git clone https://github.com/jovana-marceta/Frontend-boilerplate
+cd Frontend-boilerplate
 npm install
 ```
 
-**[⬆ back to menu](#documentation)** 
 
