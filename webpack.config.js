@@ -179,15 +179,15 @@ const wPackConfig = {
         new MiniCssExtractPlugin({
             filename: paths.dist.css + '/[name].bundle.css',
         }),
-        new PurgeCSSPlugin({
-          paths: glob.sync([
-              `${purgeCSSPaths.src}/**/*`,
-              `${purgeCSSPaths.partials}/**/*`,
-          ], { nodir: true }),
-          safelist: {
-            greedy: [/show$/, /collapsing$/, /aos/, /data/, /reveal/,  /show-filters/, /modal/, /collapse/, /slideout/]
-          }
-      }),        
+      //   new PurgeCSSPlugin({
+      //     paths: glob.sync([
+      //         `${purgeCSSPaths.src}/**/*`,
+      //         `${purgeCSSPaths.partials}/**/*`,
+      //     ], { nodir: true }),
+      //     safelist: {
+      //       greedy: [/show$/, /collapsing$/, /aos/, /data/, /reveal/,  /show-filters/, /modal/, /collapse/, /slideout/]
+      //     }
+      // }),        
     ]
 };
 
